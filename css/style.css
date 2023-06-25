@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins; }
+
+@font-face {
+  font-family: Poppins;
+  src: url(/assets/fonts/Poppins-Black.ttf); }
+
+header .divdescuento {
+  background: #dc94bc;
+  font-size: 1.25rem;
+  text-align: center; }
+
+header .divlogo {
+  display: flex;
+  justify-content: center; }
+
+header .imglogo {
+  width: 9.375rem;
+  height: 9.375rem; }
+
+main .divh1 h1 {
+  margin: 50px;
+  background: black;
+  color: white;
+  padding: 50px; }
+
+main .divimagenes {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 5px; }
+  main .divimagenes .img1 {
+    position: relative;
+    display: inline-block;
+    text-align: center; }
+    main .divimagenes .img1 img {
+      border: 2px solid black;
+      width: 400px;
+      height: 500px; }
+    main .divimagenes .img1 .texto h5 {
+      margin: .625rem; }
+
+main .divdescuento2 p {
+  font-size: 2.5rem;
+  text-align: center; }
+
+main .divpromo1 {
+  text-align: center; }
+  main .divpromo1 img {
+    width: 300px;
+    height: 400px; }
+
+main .h2promo {
+  background: #88e4ee;
+  padding: 1.25rem; }
+
+main .row {
+  margin-top: 1.875rem;
+  gap: .625rem; }
+
+main .col-4 {
+  width: 31.25rem; }
+  main .col-4 .divpromo1 img:hover {
+    border: 5px solid #88e4ee; }
+  main .col-4 .divpromo1 h5 {
+    font-size: .875rem;
+    margin-top: 10px; }
+  main .col-4 .divpromo1 a {
+    background: #88e4ee;
+    text-decoration: none;
+    color: white; }
+    main .col-4 .divpromo1 a:hover {
+      border: 5px solid #88e4ee; }
+
+.main-nuestrolocal div h2 {
+  background: #c86b6b;
+  padding: 1.25rem; }
+
+.main-nuestrolocal .divmapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.125rem; }
+
+.main-nuestrolocal .pnuestrolocal {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem;
+  font-size: 1.125rem;
+  background: #c86b6b; }
+
+.main-productos .h2productos {
+  background: #f49acd;
+  padding: 1.25rem; }
+
+.main-productos .row {
+  margin-top: 1.875rem;
+  gap: .625rem; }
+
+.main-productos .col-4 {
+  width: 31.25rem; }
+  .main-productos .col-4 .divpromo1 img:hover {
+    border: 5px solid #f49acd; }
+  .main-productos .col-4 .divpromo1 a {
+    background: #f49acd;
+    color: white; }
+    .main-productos .col-4 .divpromo1 a:hover {
+      border: 5px solid #f49acd; }
+
+.main-contactos div h2 {
+  background: #96d676;
+  padding: 1.25rem; }
+
+.main-contactos section h3 {
+  text-align: center;
+  padding: 1.25rem;
+  margin: .625rem; }
+
+.main-contactos section .fromcontactos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+  margin-bottom: 3.125rem;
+  text-decoration: none; }
+  .main-contactos section .fromcontactos .inputcontactos {
+    text-align: center;
+    width: 31.25rem;
+    height: 5rem;
+    border: none;
+    box-shadow: 5px 20px 10px #96d676;
+    outline: none; }
+  .main-contactos section .fromcontactos .inputcomentarios {
+    text-align: center;
+    width: 31.25rem;
+    height: 12.5rem;
+    border: none;
+    box-shadow: 5px 20px 10px #96d676;
+    outline: none; }
+
+.main-contactos section .inputboton {
+  background: #96d676;
+  border: #96d676; }
+  .main-contactos section .inputboton:hover {
+    background: #96d676;
+    color: white; }
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.25rem; }
+  footer div a .logofooter {
+    width: 7.5rem;
+    height: 7.5rem; }
+
+.imglogos a img {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: .625rem; }
+
+@media (max-width: 1024px) {
+  main .divh1 {
+    width: 56.25rem h1; }
+  main .divimagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  main .divfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .container-fluid {
+    margin: 3.125rem; }
+    .container-fluid img {
+      width: 56.25rem; } }
+
+@media (max-width: 768px) {
+  header .divdescuento p {
+    font-size: 1.875rem; }
+  main .divdescuento2 p {
+    font-size: 1.875rem; }
+  .main-nuestrolocal section .divmapa .inframemapa {
+    width: 25rem; }
+  .main-nuestrolocal .pnuestrolocal p {
+    font-size: .875rem; }
+  .main-contactos section .fromcontactos .inputcontactos {
+    width: 18.75rem; }
+  .main-contactos section .fromcontactos .inputcomentarios {
+    width: 18.75rem; }
+  .divfooter {
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 425px) {
+  main .divimagenes .img1 img {
+    width: 21.25rem;
+    height: 23.75rem; }
+  main .divimagenes .img1 .texto h5 {
+    font-size: 1.125rem; }
+  .main-productos div section .divpromo1 img {
+    width: 12.5rem;
+    height: 18.75rem; }
+  .main-nuestrolocal div h2 {
+    width: 31.25rem; }
+  .main-nuestrolocal section .divmapa {
+    margin-left: 0; }
+    .main-nuestrolocal section .divmapa .inframemapa {
+      width: 18.75rem; }
+  .main-nuestrolocal .pnuestrolocal p {
+    font-size: .875rem;
+    margin: 1.25rem; }
+  .main-contactos section .fromcontactos .inputcontactos {
+    width: 12.5rem; }
+  .main-contactos section .fromcontactos .inputcomentarios {
+    width: 12.5rem; }
+  footer .divfooter {
+    width: 25.625rem;
+    flex-direction: column;
+    align-items: center; }
+  footer .derechos {
+    width: 25.625rem; } }
+
+@media (max-width: 375px) {
+  main .divdescuento2 {
+    width: 22.5rem; }
+    main .divdescuento2 p {
+      font-size: 1rem; }
+  main .divimagenes .img1 img {
+    width: 17.5rem;
+    height: 18.75rem; }
+  main .divimagenes .img1 .texto h5 {
+    font-size: .9375rem;
+    margin: .625rem; }
+  .main-contactos div h2 {
+    width: 37.5rem; }
+  .main-nuestrolocal section .divmapa .inframemapa {
+    width: 12.5rem;
+    height: 18.75rem; }
+  .main-nuestrolocal .pnuestrolocal p {
+    margin: .625rem; }
+  footer .divfooter {
+    width: 22.5rem;
+    flex-direction: column;
+    align-items: center; }
+  footer .derechos {
+    width: 22.5rem; } }
+
+@media (max-width: 320px) {
+  main .divh1 {
+    width: 18.75rem; }
+    main .divh1 h1 {
+      font-size: 1.25rem; }
+  main .carousel {
+    width: 18.75rem; }
+  main .divdescuento2 {
+    width: 18.75rem; }
+    main .divdescuento2 p {
+      font-size: 1rem; }
+  main .divimagenes .img1 img {
+    width: 12.5rem;
+    height: 17.5rem; }
+  main .divimagenes .img1 .texto h5 {
+    font-size: .75rem;
+    margin: .625rem; }
+  .main-contactos div h2 {
+    width: 37.5rem; }
+  footer .divfooter {
+    flex-direction: column;
+    align-items: center;
+    width: 18.75rem; }
+  footer .derechos {
+    width: 18.75rem; } }

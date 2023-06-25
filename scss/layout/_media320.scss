@@ -1,0 +1,51 @@
+@media (max-width:320px){
+    main{
+        .divh1{
+            @include width300px;
+            h1{
+                font-size: 1.25rem;
+            }
+        }
+        .carousel{
+            @include width300px;
+        }
+        .divdescuento2{
+            @include width300px;
+            p{
+                font-size: 1rem;
+            }
+        }
+        .divimagenes{
+            .img1{
+                img{
+                    width: 12.5rem;
+                    height: 17.5rem;
+                }
+                .texto{
+                    h5{
+                        font-size:.75rem ;
+                        margin: .625rem;
+                    }
+                }
+            }
+        }   
+    } 
+    .main-contactos{
+        div{
+            h2{
+                width: 37.5rem;
+
+            }
+        }
+    }
+    footer{
+        .divfooter{
+            flex-direction: column;
+            align-items: center;
+            width: 18.75rem;
+        }
+        .derechos{
+            width: 18.75rem;
+        }
+    } 
+}

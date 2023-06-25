@@ -1,0 +1,27 @@
+@media (max-width:1024px) {
+   main{
+        .divh1{
+            width: 56.25rem
+            h1{
+                
+
+
+            }
+        }
+        .divimagenes{
+            @include flex-column-itemscenter;
+        }
+        .divfooter{
+            @include flex-column-itemscenter;
+        }
+    }
+    .container-fluid{
+        margin: 3.125rem;
+        
+        img{
+            width: 56.25rem;
+        }
+    }
+
+
+}

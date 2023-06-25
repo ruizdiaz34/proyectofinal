@@ -1,0 +1,52 @@
+@media(max-width:768px){
+    header{
+        .divdescuento{
+            p{
+                font-size:1.875rem;
+            }
+        }
+    }
+    main{
+        
+        .divdescuento2{
+            p{
+                font-size: 1.875rem;
+            }
+        } 
+
+    }
+    .main-nuestrolocal{
+        section{
+            .divmapa{
+                .inframemapa{
+                    width: 25rem;
+                }
+            }
+        }
+        .pnuestrolocal{
+            p{
+                font-size: .875rem;
+            }
+        }
+    }
+    .main-contactos{
+        section{
+            .fromcontactos{
+                .inputcontactos{
+                    width: 18.75rem;
+                }
+                .inputcomentarios{
+                    width: 18.75rem;
+                }
+                
+            }
+        }
+    }
+    .divfooter{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  }
+
+

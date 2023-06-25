@@ -1,0 +1,51 @@
+.main-contactos{
+    div{
+        h2{
+            background: $color-quinto;
+            padding: 1.25rem
+        }
+    }
+    section{
+        h3{
+            text-align: center;
+            padding: 1.25rem;
+            margin: .625rem;
+        }
+    }
+    section{
+        .fromcontactos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.875rem;
+            margin-bottom: 3.125rem;
+            text-decoration: none;
+            .inputcontactos{
+                text-align: center;
+                width: 31.25rem;
+                height: 5rem;
+                border: none;
+                box-shadow:5px 20px 10px $color-quinto;
+                outline: none;
+            }
+            .inputcomentarios{
+                text-align:center;
+                width: 31.25rem;
+                height: 12.5rem;
+                border: none;
+                box-shadow:5px 20px 10px $color-quinto;
+                outline: none;
+                    
+                }
+                
+            }
+            .inputboton{
+                background:$color-quinto;
+                border:$color-quinto ;
+                &:hover{
+                    background: $color-quinto;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+} 

@@ -1,0 +1,22 @@
+footer{
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1.25rem;
+        a{
+            .logofooter{
+                width: 7.5rem;
+                height: 7.5rem;
+            }
+        }
+    }
+}
+.imglogos{
+    a{
+        img{
+            width: 3.125rem;
+            height: 3.125rem;
+            margin: .625rem;
+        }
+    }
+}

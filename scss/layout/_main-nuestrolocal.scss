@@ -1,0 +1,20 @@
+.main-nuestrolocal{
+    div{
+        h2{
+            background: $color-cuarto;
+            padding: 1.25rem;
+        }
+    }
+    .divmapa{
+        display: flex;
+        justify-content: center;
+        margin-top: 3.125rem;
+    }
+    .pnuestrolocal{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.875rem;
+        font-size: 1.125rem;
+        background:$color-cuarto;
+    }
+}

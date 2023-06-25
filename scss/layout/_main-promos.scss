@@ -1,0 +1,35 @@
+main{
+    .h2promo{
+        background: $color-secundario;
+        padding: 1.25rem;
+    }
+    .row{
+        margin-top: 1.875rem;
+        gap: .625rem;
+    }
+    .col-4{
+        width: 31.25rem;
+        .divpromo1{
+            
+            img{
+                &:hover{
+                    border: 5px solid $color-secundario;
+                    
+                }
+            }
+        h5{
+            font-size: .875rem;
+            margin-top: 10px;
+        }    
+        a{
+            background: $color-secundario;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            &:hover{
+                border:5px solid $color-secundario;
+            }
+        }   
+        }
+
+    }
+}

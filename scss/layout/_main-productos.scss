@@ -1,0 +1,33 @@
+.main-productos{
+    .h2productos{
+            background: $color-tercero;
+            padding: 1.25rem;
+        }
+        .row{
+            margin-top: 1.875rem;
+            gap: .625rem;
+        }
+        .col-4{
+            width: 31.25rem;
+            .divpromo1{
+                
+                img{
+                    &:hover{
+                        border: 5px solid $color-tercero;
+                        ;
+                        
+                    }
+                }
+               
+            a{
+                background:$color-tercero ;
+                color: rgb(255, 255, 255);
+                &:hover{
+                    border:5px solid $color-tercero ;
+                }
+            }   
+            }
+    
+        }   
+
+}
